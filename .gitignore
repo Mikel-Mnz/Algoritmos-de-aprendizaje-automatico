@@ -13,3 +13,6 @@ __pycache__/
 
 #Jupyter Notebook
 .ipynb_checkpoints/
+
+#Test files
+tests/
