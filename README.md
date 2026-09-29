@@ -1,10 +1,13 @@
 # Algoritmos de Aprendizaje Automático
 
-Repositorio colaborativo destinado al desarrollo y almacenamiento de las actividades y prácticas de la materia de **Algoritmos de aprendizaje automático**.
+Repositorio colaborativo destinado al desarrollo y almacenamiento de las actividades, prácticas y el proyecto final de la materia de **Algoritmos de aprendizaje automático**.
+
+## Enfoque del Repositorio
+Más allá de la optimización técnica, este repositorio aborda la ciencia de datos desde una perspectiva estratégica. Partimos de la premisa de que **el valor de un modelo no reside únicamente en su perfección matemática, sino en su alineación con los objetivos del negocio.** Priorizamos algoritmos interpretables que permitan explicar los factores de riesgo a la mesa directiva y diseñamos sistemas que actúan como soporte a la toma de decisiones, potenciando el criterio humano y evitando la automatización a ciegas.
 
 ## Estructura del Proyecto
 
-El proyecto sigue una estructura de tipo *monorepo*, pensado para mantener todas las actividades centralizadas. En la raíz del proyecto se encuentran las configuraciones globales, y cada actividad tiene su propio directorio aislado para sus Jupyter Notebooks y datasets (`.csv`).
+El proyecto sigue una estructura de tipo *monorepo*, pensado para mantener todas las actividades centralizadas. En la raíz del proyecto se encuentran las configuraciones globales, y cada actividad tiene su propio directorio aislado para sus Jupyter Notebooks, datasets (`.csv`) y artefactos generados.
 
 ```text
 📦 Algoritmos-de-aprendizaje-automatico
@@ -14,10 +17,14 @@ El proyecto sigue una estructura de tipo *monorepo*, pensado para mantener todas
  ┣ 📂 Actividad_02/
  ┃ ┣ 📜 notebook.ipynb
  ┃ ┗ 📜 dataset.csv
+ ┣ 📂 Proyecto_Final/
+ ┃ ┣ 📜 proyecto_final.ipynb
+ ┃ ┣ 📜 predictor.py
+ ┃ ┣ 📜 pipeline_final_churn.joblib
+ ┃ ┗ 📜 umbral_churn.json
  ┣ 📜 .gitignore
  ┣ 📜 README.md
  ┗ 📜 requirements.txt
-```
 
 ## Configuración Inicial
 
