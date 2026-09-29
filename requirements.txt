@@ -1,9 +1,8 @@
-pandas==3.0.5
-numpy==2.5.2
-matplotlib
-seaborn
+pandas
+numpy<2.0.0
+scipy<1.13.0
 scikit-learn
 matplotlib
 joblib
-shap
+shap<0.45.0
 kagglehub
