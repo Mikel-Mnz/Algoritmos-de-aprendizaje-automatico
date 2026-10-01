@@ -1,1 +1,41 @@
-{"umbral_operativo": 0.3, "metrica_optimizada": "F1-score / Recall"}
+{
+  "version_modelo": "v1.0",
+  "fecha_entrenamiento": "2026-09-30",
+  "version_python": "3.11.11",
+  "version_scikit_learn": "1.9.1",
+  "variables_entrada": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "umbral_operativo": 0.32,
+  "regla_umbral": "Umbral que maximiza F1 en las probabilidades OOF de entrenamiento (StratifiedKFold 5, semilla 42), redondeado a 2 decimales",
+  "metricas_referencia_prueba": {
+    "roc_auc_prueba": 0.8457,
+    "recall_prueba": 0.7406,
+    "precision_prueba": 0.5421,
+    "f1_prueba": 0.626,
+    "falsos_positivos_prueba": 234,
+    "falsos_negativos_prueba": 97
+  },
+  "sha256": {
+    "pipeline_final_churn.joblib": "970f8412483db38f6aef23c0cfc5006a39cf7dbb5857454929a2a72fbab1b780",
+    "modelo_logreg_churn.joblib": "f4c04ccf1af53445da84bc2f7fb56b71aefa42824b53d10a218453afec30247b"
+  }
+}
